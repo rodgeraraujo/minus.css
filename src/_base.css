@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #7c74f2;
+  --color-secondary: #656565;
+  --color-darkGray: #323232;
+  --color-lightGrey: #ededed;
+  --color-grey: #7f858e;
+  --color-darkGrey: #4a4d50;
+  --color-red: #d5716b;
+  --color-green: #6bd582;
+  --color-yellow: #f6d798;
+  --color-blue: #beeaf2;
+  --color-black: #000509;
+  --color-error: #d5716b;
+  --color-success: #6bd582;
+  --color-warning: #f6d798;
+  --color-info: #beeaf2;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-family-sans: -apple-system, 'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Lucida Console', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--color-secondary);
+  font-family: var(--font-family-sans);
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+}

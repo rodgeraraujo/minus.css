@@ -1,0 +1,38 @@
+{
+  "name": "minus.css",
+  "version": "0.1.0",
+  "description": "Minus.css a minimalistic and plain library, a small CSS framework.",
+  "main": "dist/minus.min.css",
+  "scripts": {
+    "build": "rimraf dist/* && yarn postcss &&  cross-env NODE_ENV=production yarn postcss --ext .min.css && gzip -c dist/minus.min.css  | wc -c | xargs echo 'Size:'",
+    "postcss": "postcss ./src/minus.css -d dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodgeraraujo/minus.css"
+  },
+  "author": "Rogério Araújo <rogerio.araujo@mail.com>",
+  "keywords": [
+    "css",
+    "responsive",
+    "minimalistic",
+    "framework",
+    "minus",
+    "minus.css"
+  ],
+  "bugs": {
+    "url": "https://github.com/rodgeraraujo/minus.css/issues",
+    "email": "rogerio.araujo@mail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.29",
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "rimraf": "^3.0.2"
+  }
+}

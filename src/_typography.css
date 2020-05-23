@@ -1,0 +1,69 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 350;
+  letter-spacing: 0.1em;
+  margin: 0.35em 0 0.7em 0;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+h2 {
+  font-size: 1.65em;
+}
+
+h3 {
+  font-size: 1.45em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+h5 {
+  font-size: 0.95em;
+}
+
+h6 {
+  font-size: 0.75em;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover:not(.button) {
+  opacity: 0.65;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+}
+
+blockquote {
+  background-color: #ededed;
+  padding: 1.5rem 2rem;
+  border-left: 3px solid var(--color-secondary);
+}
+
+hr {
+  border: none;
+  background-color: var(--color-lightGrey);
+  height: 1.5px;
+  margin: 0.9rem 0;
+}
+
+.txt-center {
+  text-align: center;
+}

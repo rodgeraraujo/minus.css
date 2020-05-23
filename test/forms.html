@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Elements test</title>
+    <link rel="stylesheet" href="../dist/minus.min.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="txt-center">Minus.css</h1>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-left">
+                    <a class="brand" href="./">Voltar</a>
+                    <a class="brand" href="./typography.html">Typography</a>
+                    <a class="brand" href="./grids.html">Grids</a>
+                    <a class="brand" href="./buttons.html">Buttons</a>
+                    <a class="brand active" href="./forms.html">Forms</a>
+                    <a class="brand" href="./list.html">Lists</a>
+                    <a class="brand" href="./nav.html">Navbars</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class=" container">
+        <header>
+            <h1>Form elements</h1>
+        </header>
+        <form>
+            <fieldset>
+                <legend>Input fields</legend>
+                <p>
+                    <label for="inputText">Text Input</label>
+                    <input id="inputText" type="text" placeholder="Text Input">
+                </p>
+                <p>
+                    <label for="inputPassword">Password</label>
+                    <input id="inputPassword" type="password" placeholder="Type your Password">
+                </p>
+                <p>
+                    <label for="inputWebaddress">Web Address</label>
+                    <input id="inputwebaddress" type="url" placeholder="http://yoursite.com">
+                </p>
+                <p>
+                    <label for="inputEmailaddress">Email Address</label>
+                    <input id="inputEmailaddress" type="email" placeholder="name@email.com">
+                </p>
+                <p>
+                    <label for="inputPhone">Phone Number</label>
+                    <input id="inputPhone" type="tel" placeholder="+55 (99) 99999-9999">
+                </p>
+                <p>
+                    <label for="inputSearch">Search</label>
+                    <input id="inputSearch" type="search" placeholder="Enter Search     ">
+                </p>
+                <p>
+                    <label for="inputNumber">Number Input</label>
+                    <input id="inputNumber" type="number" placeholder="Enter a Number">
+                </p>
+                <p>
+                    <label for="inputError" class="error">Error</label>
+                    <input id="inputError" class="error" type="text" placeholder="Text Input">
+                </p>
+                <p>
+                    <label for="inputSuccess" class="success">Valid</label>
+                    <input id="inputSuccess" class="success" type="text" placeholder="Text Input">
+                </p>
+                <p>
+                    <label for="inputDisabled">Disabled Text Input</label>
+                    <input id="inputDisabled" type="text" placeholder="Disabled Text Input" disabled>
+                </p>
+                <p class="grouped">
+                    <input type="search" name="inputSearch2" id="inputSearch2" placeholder="Search">
+                    <button class="button icon-only"><img src="https://icongr.am/feather/search.svg?size=16"></button>
+                </p>
+                <p class="grouped">
+                    <input type="text" name="inputText2" id="inputText2" placeholder="Username">
+                    <input type="text" name="inputText3" id="inputText3" placeholder="Password">
+                    <button class="button primary">Submit</button>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset id="forms__checkbox">
+                <legend>Checkboxes</legend>
+                <ul class="list list--bare">
+                    <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                            Choice A</label></li>
+                    <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice
+                            B</label></li>
+                    <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice
+                            C</label></li>
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Select menus</legend>
+                <p>
+                    <label for="select">Select</label>
+                    <select id="select">
+                        <optgroup label="Option Group">
+                            <option>Option One</option>
+                            <option>Option Two</option>
+                            <option>Option Three</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Radio buttons</legend>
+                <ul class="list list--bare">
+                    <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio"
+                                checked="checked">
+                            Option 1</label></li>
+                    <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option
+                            2</label></li>
+                    <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option
+                            3</label></li>
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Textareas</legend>
+                <p>
+                    <label for="textarea">Textarea</label>
+                    <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>HTML5 inputs</legend>
+                <p>
+                    <label for="ic">Color input</label>
+                    <input type="color" id="ic" value="#000000">
+                </p>
+                <p>
+                    <label for="in">Number input</label>
+                    <input type="number" id="in" min="0" max="10" value="5">
+                </p>
+                <p>
+                    <label for="ir">Range input</label>
+                    <input type="range" id="ir" value="10">
+                </p>
+                <p>
+                    <label for="idd">Date input</label>
+                    <input type="date" id="idd" value="1970-01-01">
+                </p>
+                <p>
+                    <label for="idm">Month input</label>
+                    <input type="month" id="idm" value="1970-01">
+                </p>
+                <p>
+                    <label for="idw">Week input</label>
+                    <input type="week" id="idw" value="1970-W01">
+                </p>
+                <p>
+                    <label for="idt">Datetime input</label>
+                    <input type="datetime" id="idt" value="1970-01-01T00:00:00Z">
+                </p>
+                <p>
+                    <label for="idtl">Datetime-local input</label>
+                    <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

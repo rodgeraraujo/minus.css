@@ -1,0 +1,62 @@
+.spacing-xl {
+  padding: 0.5rem;
+}
+.spacing-vert-xl {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.spacing-horiz-xl {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.spacing-sm {
+  padding: 1rem;
+}
+.spacing-vert-sm {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.spacing-horiz-sm {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.spacing-md {
+  padding: 2rem;
+}
+.spacing-vert-md {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.spacing-horiz-md {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.spacing-lg {
+  padding: 3rem;
+}
+.spacing-vert-lg {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.spacing-horiz-lg {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.spacing-xl {
+  padding: 4rem;
+}
+.spacing-vert-xl {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.spacing-horiz-xl {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}

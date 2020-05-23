@@ -1,0 +1,73 @@
+.col,
+.col-sm,
+.col-lg {
+  background-clip: content-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -0.25rem;
+  min-height: 1px;
+  padding-left: 1.25rem;
+  position: relative;
+  vertical-align: top;
+}
+
+.no-gutter {
+  padding-left: 0.25rem;
+}
+
+.c1 {
+  width: 8.35%;
+}
+
+.c2 {
+  width: 16.65%;
+}
+
+.c3 {
+  width: 25%;
+}
+
+.c4 {
+  width: 33.35%;
+}
+.c5 {
+  width: 41.65%;
+}
+.c6 {
+  width: 50%;
+}
+
+.c7 {
+  width: 58.35%;
+}
+
+.c8 {
+  width: 66.65%;
+}
+.c9 {
+  width: 75%;
+}
+.c10 {
+  width: 83.35%;
+}
+.c11 {
+  width: 91.65%;
+}
+
+.c12 {
+  width: 100%;
+}
+
+@media (max-width: 55rem) {
+  .col-lg {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .col {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+}
