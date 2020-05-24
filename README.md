@@ -14,11 +14,11 @@
   </a>
   <a href="https://bundlephobia.com/result?p=minus.css@latest"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/minus.css.svg"></a>
  <a href="https://github.com/rodgeraraujo/minus.css/issues"><img src="https://img.shields.io/github/issues/rodgeraraujo/minus.css.svg"></a>
-  <a aria-label="contributors graph" href="https://github.com/rpdgeraraujo/minus.css/graphs/contributors">
+  <a aria-label="contributors graph" href="https://github.com/rodgeraraujo/minus.css/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/rodgeraraujo/minus.css.svg">
   </a>
   <a aria-label="license" href="https://github.com/rodgeraraujo/minus.css/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/rodgeraraujo/minus.css.svg" alt="">
+    <img src="https://img.shields.io/github/license/rodgeraraujo/minus.css" alt="">
   </a>
 </p>
 
