@@ -38,12 +38,12 @@ $ npm i minus.css
 
 ## Resources
 
-- Typography [grids](https://minus.rogerioaraujo.me/grids.html)
-- Grids [grids](https://minus.rogerioaraujo.me/grids.html)
-- Buttons [grids](https://minus.rogerioaraujo.me/grids.html)
-- Forms [grids](https://minus.rogerioaraujo.me/grids.html)
-- List [grids](https://minus.rogerioaraujo.me/grids.html)
-- Navbar [grids](https://minus.rogerioaraujo.me/grids.html)
+- [Typography](https://minus.rogerioaraujo.me/typography.html)
+- [Grids](https://minus.rogerioaraujo.me/grids.html)
+- [Buttons](https://minus.rogerioaraujo.me/buttons.html)
+- [Forms](https://minus.rogerioaraujo.me/forms.html)
+- [List](https://minus.rogerioaraujo.me/list.html)
+- [Navbar](https://minus.rogerioaraujo.me/nav.html)
 
 ## Browsers support 🌎
 
