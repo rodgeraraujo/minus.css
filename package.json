@@ -1,7 +1,7 @@
 {
   "name": "minus.css",
-  "version": "0.1.1",
-  "description": "Minus.css a minimalistic and plain library, a small CSS framework.",
+  "version": "0.1.2",
+  "description": "A small and minimalistic css framework",
   "main": "dist/minus.min.css",
   "scripts": {
     "build": "rimraf dist/* && yarn postcss &&  cross-env NODE_ENV=production yarn postcss --ext .min.css && gzip -c dist/minus.min.css  | wc -c | xargs echo 'Size:'",

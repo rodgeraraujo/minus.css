@@ -5,7 +5,7 @@
 
 <h1 align="center">minus.css</h1>
 
-<p align="center">a minimalistic and plain library, a small CSS framework.</p>
+<p align="center">A small and minimalistic css framework.</p>
 
 <p align="center">
 
@@ -22,7 +22,7 @@
   </a>
 </p>
 
-### Started ✨
+### Installation ✨
 
 cdn:
 
@@ -30,13 +30,19 @@ cdn:
 <link rel="stylesheet" href="https://unpkg.com/minus.css" />
 ```
 
-npm or yarn:
+npm:
 
 ```bash
 $ npm i minus.css
 ```
 
-## Resources
+yarn:
+
+```bash
+$ yarn add minus.css
+```
+
+## Documentation
 
 - [Typography](https://minus.rogerioaraujo.me/typography.html)
 - [Grids](https://minus.rogerioaraujo.me/grids.html)
@@ -45,17 +51,17 @@ $ npm i minus.css
 - [List](https://minus.rogerioaraujo.me/list.html)
 - [Navbar](https://minus.rogerioaraujo.me/nav.html)
 
-## Browsers support 🌎
+## Browser support 🌎
 
-Comming soon...
+Coming soon...
 
 ## Contributing 🍰
 
-If you want to contribute to a project and make it better, feel free to fork and contribute.
+If you want to contribute to the project and make it better, feel free to fork and contribute after reading the [CONTRIBUTING.md](https://github.com/rodgeraraujo/minus.css/blob/master/CONTRIBUTING) file.
 
 ## License 📃
 
-License [MIT](https://github.com/rodgeraraujo/minus.css/blob/master/LICENSE)
+Licensed under the [MIT](https://github.com/rodgeraraujo/minus.css/blob/master/LICENSE) license.
 
 ## Author 👽
 
