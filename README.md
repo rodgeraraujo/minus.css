@@ -57,7 +57,7 @@ Coming soon...
 
 ## Contributing 🍰
 
-If you want to contribute to the project and make it better, feel free to fork and contribute after reading the [CONTRIBUTING.md](https://github.com/rodgeraraujo/minus.css/blob/master/CONTRIBUTING.md) file.
+If you want to contribute to the project and make it better, feel free to fork and contribute after reading the [CONTRIBUTING.md](https://github.com/rodgeraraujo/minus.css/blob/master/.github/CONTRIBUTING.md) file.
 
 ## License 📃
 
