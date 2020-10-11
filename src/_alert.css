@@ -46,25 +46,25 @@
 
 
 
-.danger
+.alert-danger
 {
     background-color: var(--color-red);
     
 }
-.success
+.alert-success
 {
     background-color: var(--color-success);
 }
-.neutral
+.alert-neutral
 {
     background-color:var(--color-yellow);
     
 }
-.warning
+.alert-warning
 {
     background-color: var(--color-black);
 }
-.error
+.alert-error
 {
     background-color: var(--color-primary);
 }
