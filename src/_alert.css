@@ -1,31 +1,28 @@
-.fieldset
-{
-    width:100%;
-}
+
 
 .alert
 {
     
     display :inline-block;
-    width:80%;
+    width:80rem;
    
-    color:white;
+    color:var(--color-lightGrey);
     
 }
 .alert-message
 {
-    padding-bottom: 2%;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 24px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
     text-align: left;
     
 }
 .alert-button
 {
   
-    padding-bottom: 1%;
+    padding-bottom: 1rem;
     text-align: center;
   
     
@@ -33,10 +30,10 @@
 .OK:active;
 {
    
-    color:black;
-    width:10%;
-    height:10%;
-    background-color: white;
+    color:var(--color-black);
+    width:10rem;
+    height:10rem;
+    background-color: var(--color-lightGrey);
     
 }
 .OK:hover{
@@ -51,23 +48,23 @@
 
 .danger
 {
-    background-color: #f44336;
+    background-color: var(--color-red);
     
 }
 .success
 {
-    background-color: limegreen;
+    background-color: var(--color-success);
 }
 .neutral
 {
-    background-color:yellow;
+    background-color:var(--color-yellow);
     
 }
 .warning
 {
-    background-color: black;
+    background-color: var(--color-black);
 }
 .error
 {
-    background-color: dodgerblue;
+    background-color: var(--color-primary);
 }
