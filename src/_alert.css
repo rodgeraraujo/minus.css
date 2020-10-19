@@ -49,3 +49,7 @@
 .alert-error {
     background-color: var(--color-error);
 }
+
+.alert-info {
+    background-color: var(--color-info);
+}

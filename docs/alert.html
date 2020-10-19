@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alert - Elements test</title>
-    <link rel ="stylesheet" href="../dist/minus.css" >
+    <link rel="stylesheet" href="../dist/minus.css">
 </head>
 
 <body>
-   <header class="container">
+    <header class="container">
         <h1 class="txt-center">Minus.css</h1>
         <nav class="nav">
             <div class="container">
@@ -19,7 +19,7 @@
                     <a class="brand" href="./grids.html">Grids</a>
                     <a class="brand active" href="./alert.html">Alerts</a>
                     <a class="brand" href="./buttons.html">Buttons</a>
-                    
+
                     <a class="brand" href="./forms.html">Forms</a>
                     <a class="brand" href="./list.html">Lists</a>
                     <a class="brand" href="./nav.html">Navbars</a>
@@ -31,87 +31,86 @@
         <header>
             <h1>Alert elements</h1>
         </header>
-         <fieldset>
+        <fieldset>
             <legend>Alerts</legend>
-               <h4>Danger Alert</h4>
-            
-               <div class="alert-danger">
-                   <div class="alert-message">
-                       This is alert message!!! Please read carefully.</div>
-                   <div class="alert-button">
-                       <button class="OK" onclick="dismiss_danger()">OK</button></div>
-                 </div>
-             <h4>Success Alert</h4>  
-                  <div class="alert-success">
-                   <div class="alert-message">
-                       This is alert message!!! Please read carefully.</div>
-                   <div class="alert-button">
-                       <button class="OK" onclick="dismiss_success()">OK</button></div>
-                 </div>
-                  <h4>Neutral Alert</h4>
-            
-               <div class="alert-neutral">
-                   <div class="alert-message">
-                       This is alert message!!! Please read carefully.</div>
-                   <div class="alert-button">
-                       <button class="OK" onclick="dismiss_neutral()">OK</button></div>
-                 </div>
-             <h4>Warning Alert</h4>  
-                  <div class="alert-warning">
-                   <div class="alert-message">
-                       This is alert message!!! Please read carefully. </div>
-                   <div class="alert-button">
-                       <button class="OK" onclick="dismiss_warning()">OK</button></div>
-                 </div> 
-              <h4>Error Alert</h4>  
-                  <div class="alert-error">
-                   <div class="alert-message">
-                       This is alert message!!! Please read carefully. </div>
-                   <div class="alert-button">
-                       <button class="OK" onclick="dismiss_error()">OK</button></div>
-                 </div> 
-                
-             
-           
-           
-           </fieldset>
-        
+
+            <h4>Danger Alert</h4>
+            <div class="alert-danger">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully.</div>
+                <div class="alert-button">
+                    <button class="OK" onclick="dismiss_danger()">OK</button></div>
+            </div>
+
+            <h4>Success Alert</h4>
+            <div class="alert-success">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully.</div>
+                <div class="alert-button">
+                    <button class="OK" onclick="dismiss_success()">OK</button></div>
+            </div>
+
+            <h4>Neutral Alert</h4>
+            <div class="alert-neutral">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully.</div>
+                <div class="alert-button">
+                    <button class="OK" onclick="dismiss_neutral()">OK</button></div>
+            </div>
+
+            <h4>Warning Alert</h4>
+            <div class="alert-warning">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully. </div>
+                <div class="alert-button">
+                    <button class="OK" onclick="dismiss_warning()">OK</button></div>
+            </div>
+
+            <h4>Error Alert</h4>
+            <div class="alert-error">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully. </div>
+                <div class="alert-button">
+                    <button class="OK" onclick="dismiss_error()">OK</button></div>
+            </div>
+
+            <h4>Info Alert</h4>
+            <div class="alert-info">
+                <div class="alert-message">
+                    This is alert message!!! Please read carefully.
+                </div>
+            </div>
+        </fieldset>
+
     </div>
 </body>
 
 </html>
 <script>
 
-function dismiss_danger()
-{
+    function dismiss_danger() {
         console.log("click");
-       var x = document.getElementsByClassName("alert danger")[0];
+        var x = document.getElementsByClassName("alert danger")[0];
         x.style.display = "none";
-}
-function dismiss_success()
-{
+    }
+    function dismiss_success() {
         console.log("click");
-       var x = document.getElementsByClassName("alert success")[0];
+        var x = document.getElementsByClassName("alert success")[0];
         x.style.display = "none";
-}
-function dismiss_neutral()
-{
+    }
+    function dismiss_neutral() {
         console.log("click");
-       var x = document.getElementsByClassName("alert neutral")[0];
+        var x = document.getElementsByClassName("alert neutral")[0];
         x.style.display = "none";
-}
-function dismiss_warning()
-{
+    }
+    function dismiss_warning() {
         console.log("click");
-       var x = document.getElementsByClassName("alert warning")[0];
+        var x = document.getElementsByClassName("alert warning")[0];
         x.style.display = "none";
-}
-function dismiss_error()
-{
+    }
+    function dismiss_error() {
         console.log("click");
-       var x = document.getElementsByClassName("alert error")[0];
+        var x = document.getElementsByClassName("alert error")[0];
         x.style.display = "none";
-}
+    }
 </script>
-        
- 
