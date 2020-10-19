@@ -43,9 +43,9 @@
 }
 
 .alert-warning {
-    background-color: var(--color-black);
+    background-color: var(--color-warning);
 }
 
 .alert-error {
-    background-color: var(--color-primary);
+    background-color: var(--color-error);
 }
