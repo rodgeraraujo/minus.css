@@ -1,6 +1,6 @@
 </p>
 <p align="center">
-<img src="./test/logo.png" width="350" />
+<img src="/docs/logo.png" width="350" />
 </p>
 
 <h1 align="center">minus.css</h1>
