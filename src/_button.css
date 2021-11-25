@@ -3,44 +3,45 @@
 [type='reset'],
 [type='submit'],
 button {
-  padding: 1rem 2.5rem;
-  color: var(--color-darkGrey);
-  background: var(--color-lightGrey);
-  border-radius: 4px;
-  border: 1px solid transparent;
-  font-size: var(--font-size);
-  line-height: 1;
-  text-align: center;
-  transition: opacity 0.2s ease;
-  text-decoration: none;
-  transform: scale(1);
-  display: inline-block;
-  cursor: pointer;
+    padding: 1rem 2.5rem;
+    color: var(--color-darkGrey);
+    background: var(--color-lightGrey);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: var(--font-size);
+    line-height: 1;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+    transform: scale(1);
+    display: inline-block;
+    cursor: pointer;
 }
 
 .grouped {
-  display: flex;
+    display: flex;
 }
 
-.grouped > *:not(:last-child) {
-  margin-right: 16px;
+.grouped>*:not(:last-child) {
+    margin-right: 16px;
 }
 
-.grouped.gapless > * {
-  margin: 0 0 0 -1px !important;
-  border-radius: 0 !important;
-}
-.grouped.gapless > *:first-child {
-  margin: 0 !important;
-  border-radius: 4px 0 0 4px !important;
+.grouped.gapless>* {
+    margin: 0 0 0 -1px !important;
+    border-radius: 0 !important;
 }
 
-.grouped.gapless > *:last-child {
-  border-radius: 0 4px 4px 0 !important;
+.grouped.gapless>*:first-child {
+    margin: 0 !important;
+    border-radius: 4px 0 0 4px !important;
 }
 
-.button + .button {
-  margin-left: 1rem;
+.grouped.gapless>*:last-child {
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.button+.button {
+    margin-left: 1rem;
 }
 
 .button:hover,
@@ -48,7 +49,7 @@ button {
 [type='reset']:hover,
 [type='submit']:hover,
 button:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .button:active,
@@ -56,15 +57,15 @@ button:hover {
 [type='reset']:active,
 [type='submit']:active,
 button:active {
-  transform: scale(0.98);
+    transform: scale(0.98);
 }
 
 input:disabled,
 button:disabled,
 input:disabled:hover,
 button:disabled:hover {
-  opacity: 0.4;
-  cursor: not-allowed;
+    opacity: 0.4;
+    cursor: not-allowed;
 }
 
 .button.primary,
@@ -73,74 +74,88 @@ button:disabled:hover {
 .button.error,
 .button.success,
 [type='submit'] {
-  color: #fff;
-  z-index: 1; /* hightlight from other button's border when grouped */
-  background-color: #000;
-  background-color: var(--color-primary);
+    color: #fff;
+    z-index: 1;
+    /* hightlight from other button's border when grouped */
+    background-color: #000;
+    background-color: var(--color-primary);
 }
 
 .button.secondary {
-  background-color: var(--color-grey);
+    background-color: var(--color-grey);
 }
 
 .button.dark {
-  background-color: var(--color-darkGrey);
+    background-color: var(--color-darkGrey);
 }
 
 .button.error {
-  background-color: var(--color-error);
+    background-color: var(--color-error);
 }
 
 .button.success {
-  background-color: var(--color-success);
+    background-color: var(--color-success);
 }
 
 .button.warning {
-  background-color: var(--color-warning);
+    background-color: var(--color-warning);
 }
 
 .button.info {
-  background-color: var(--color-info);
+    background-color: var(--color-info);
 }
 
 .button.outline {
-  background-color: transparent;
-  border-color: var(--color-lightGrey);
+    background-color: transparent;
+    border-color: var(--color-lightGrey);
 }
 
 .button.outline.primary {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .button.outline.secondary {
-  border-color: var(--color-grey);
-  color: var(--color-grey);
+    border-color: var(--color-grey);
+    color: var(--color-grey);
 }
 
 .button.outline.dark {
-  border-color: var(--color-darkGrey);
-  color: var(--color-darkGrey);
+    border-color: var(--color-darkGrey);
+    color: var(--color-darkGrey);
 }
 
 .button.clear {
-  background-color: transparent;
-  border-color: transparent;
-  color: var(--color-primary);
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--color-primary);
 }
 
 .button.icon {
-  display: inline-flex;
-  align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
 
-.button.icon > img {
-  margin-left: 2px;
+.button.icon>img {
+    margin-left: 2px;
 }
+
 .button.icon-only {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 ::placeholder {
-  color: #bdbfc4;
+    color: #bdbfc4;
+}
+
+.button.rounded-sm {
+    border-radius: 5px;
+}
+
+.button.rounded-md {
+    border-radius: 10px;
+}
+
+.button.rounded-lg {
+    border-radius: 15px;
 }

@@ -1,6 +1,6 @@
 </p>
 <p align="center">
-<img src="./test/logo.png" width="350" />
+<img src="/docs/logo.png" width="350" />
 </p>
 
 <h1 align="center">minus.css</h1>
@@ -44,12 +44,12 @@ $ yarn add minus.css
 
 ## Documentation
 
-- [Typography](https://minus.rogerioaraujo.me/typography.html)
-- [Grids](https://minus.rogerioaraujo.me/grids.html)
-- [Buttons](https://minus.rogerioaraujo.me/buttons.html)
-- [Forms](https://minus.rogerioaraujo.me/forms.html)
-- [List](https://minus.rogerioaraujo.me/list.html)
-- [Navbar](https://minus.rogerioaraujo.me/nav.html)
+- [Typography](https://minus.rogerioaraujo.dev/typography.html)
+- [Grids](https://minus.rogerioaraujo.dev/grids.html)
+- [Buttons](https://minus.rogerioaraujo.dev/buttons.html)
+- [Forms](https://minus.rogerioaraujo.dev/forms.html)
+- [List](https://minus.rogerioaraujo.dev/list.html)
+- [Navbar](https://minus.rogerioaraujo.dev/nav.html)
 
 ## Browser support 🌎
 

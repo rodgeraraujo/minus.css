@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport"
-        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Minus.css - a minimalistic and plain library, a small CSS framework. </title>
-    <link rel="stylesheet" href="https://unpkg.com/minus.css" />
+    <link rel ="stylesheet" href="../dist/minus.css" >
     <style>
         .col,
         .col-sm {
@@ -16,22 +15,23 @@
             min-height: 2.5rem;
             text-align: center;
         }
-
+        
         .code-bg {
             background-color: #F5F7FF;
             padding: 1%;
             border-radius: 4px;
             opacity: 0.9;
         }
-
+        
         .txt-code-blue {
             color: #24ABF2;
         }
-
+        
         .txt-code-green {
             color: #74C3A3;
         }
 
+        
         img {
             position: relative;
             margin-top: 10%;
@@ -40,6 +40,20 @@
             transform: translateX(-50%) translateY(-50%);
             max-width: 100%;
             max-height: 100%;
+        }
+
+        .footer-text{
+            padding-top: 40px;
+            margin-left: 280px;
+        }
+
+        footer{
+            background-color: rgba(233, 232, 232, 0.671);
+        }
+
+        .resources{
+            margin-left: 630px;
+            margin-top: -140px;
         }
     </style>
 </head>
@@ -50,9 +64,10 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav-left">
-                    <a class="brand active" href="./">home</a>
-                    <a class="brand" href="./typography.html">examples</a>
-                    <a class="brand" href="http://github.com/rodgeraraujo/minus.css">github</a>
+                    <a class="brand active" href="./">Home</a>
+                    <a class="brand" href="./typography.html">Examples</a>
+                    <a class="brand" href="https://play.minus.rogerioaraujo.dev/">Storybook</a>
+                    <a class="button rounded-lg" href="http://github.com/rodgeraraujo/minus.css"> Github</a>
                 </div>
             </div>
         </nav>
@@ -86,13 +101,9 @@
             <br>
         </section>
     </div>
-    <footer class="container">
+    <footer>
         <div class="row">
-
-            <div class="spacing-vert-md col c12">
-                <a href="https://github.com/rodgeraraujo">Rogério Araújo</a> © 2020.
-            </div>
-
+            <div class="footer-text">
             <div class="col c6">
                 <h5><b>Features</b></h5>
                 <ul class="li-unstyled">
@@ -101,21 +112,26 @@
                     <li>12 column grid</li>
                 </ul>
             </div>
+        </div>
 
+            <div class="resources">
             <div class="col c6">
                 <h5><b>Resources</b></h5>
                 <ul class="li-unstyled">
                     <li>Typography</li>
                     <li>Grids</li>
+                    <li>Alerts</li>
                     <li>Buttons</li>
                     <li>Forms</li>
                     <li>List</li>
                     <li>Navbar</li>
                 </ul>
             </div>
-
+        </div>
+            <div class="spacing-vert-md col c12">
+                <a href="https://github.com/rodgeraraujo">Rogério Araújo</a> © 2020.
+            </div>
         </div>
     </footer>
 </body>
-
 </html>
